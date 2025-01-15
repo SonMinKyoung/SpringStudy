@@ -3,12 +3,12 @@
 
 ### 1️⃣ Spring 
 
-#### (1) Spring 입문 - 코드로 배우는 스프링 부트, 웹 MVC, DB 접근 기술
-#### (2) Spring 핵심 원리 - 기본편
-#### (3) 모든 개발자를 위한 HTTP 웹 기본 지식
-#### (4) Spring MVC 1편
-#### (5) Spring MVC 2편
-#### (6) Spring DB 1편
+##### (1) Spring 입문 - 코드로 배우는 스프링 부트, 웹 MVC, DB 접근 기술
+##### (2) Spring 핵심 원리 - 기본편
+##### (3) 모든 개발자를 위한 HTTP 웹 기본 지식
+##### (4) Spring MVC 1편
+##### (5) Spring MVC 2편
+##### (6) Spring DB 1편
 (7) Spring DB 2편
 (8) Spring 핵심 원리 - 고급편
 (9) Spring Boot - 핵심원리와 활용
