@@ -1,10 +1,10 @@
 package study.mini01.repository;
 
+import org.springframework.stereotype.Repository;
 import study.mini01.domain.Member;
 
 import java.util.*;
-
-
+@Repository
 public class MemoryMemberRepository implements MemberRepository{
 
     //동시성 문제를 고려하면, Map > ConcurrentHashMap / Long > AtomicLog 사용
