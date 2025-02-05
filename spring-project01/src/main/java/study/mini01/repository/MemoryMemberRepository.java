@@ -32,9 +32,20 @@ public class MemoryMemberRepository implements MemberRepository{
     }
 
     @Override
+    public Optional<Member> findById(Long id) {
+        return Optional.empty();
+    }
+
+    @Override
     public List<Member> findAll() {
         return new ArrayList<>(store.values());
     }
+
+    @Override
+    public Optional<Member> findByName(String name) {
+        return Optional.empty();
+    }
+
     public void clearStore(){
         store.clear();
     }
