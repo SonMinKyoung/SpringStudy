@@ -11,8 +11,9 @@ import study.mini02.order.OrderServiceImpl;
 public class OrderApplication {
 
     public static void main(String[] args) {
-        MemberService memberService = new MemberServiceImpl();
-        OrderService orderService = new OrderServiceImpl();
+        AppConfig appConfig = new AppConfig();
+        MemberService memberService = appConfig.memberService();
+        OrderService orderService = appConfig.orderService();
 
         Long memberId = 2L;
         Member member = new Member(memberId,"Mink", Grade.VIP);

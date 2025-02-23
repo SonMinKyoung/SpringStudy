@@ -3,13 +3,15 @@ package study.mini02.discount;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
+import study.mini02.AppConfig;
 import study.mini02.member.Grade;
 import study.mini02.member.Member;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 class RateDiscountPolicyTest {
-    RateDiscountPolicy discountPolicy = new RateDiscountPolicy();
+
+    DiscountPolicy discountPolicy = new RateDiscountPolicy();
 
     @Test
     @DisplayName("vip는 10%할인이 적용되어야한다.")

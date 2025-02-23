@@ -8,8 +8,9 @@ import study.mini02.member.MemberService;
 import study.mini02.member.MemberServiceImpl;
 
 public class OrderServiceTest {
-    MemberService memberService = new MemberServiceImpl();
-    OrderService orderService = new OrderServiceImpl();
+    MemberService memberService;
+    OrderService orderService ;
+
 
     @Test
     void createOrder(){
