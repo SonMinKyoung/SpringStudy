@@ -1,4 +1,4 @@
-package study.miniproject02;
+package study.mini02;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
