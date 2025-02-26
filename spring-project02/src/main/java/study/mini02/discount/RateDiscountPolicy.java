@@ -1,8 +1,9 @@
 package study.mini02.discount;
 
+import org.springframework.stereotype.Component;
 import study.mini02.member.Grade;
 import study.mini02.member.Member;
-
+@Component
 public class RateDiscountPolicy implements DiscountPolicy{
     private int discountPercent = 10;
     @Override
